@@ -56,7 +56,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: #e3e6f3;
+  background-color: #c8b7a6;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
@@ -80,13 +80,13 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #7d94b5;
   transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #703f37;
 }
 
 #navbar li a.active::after,
@@ -96,43 +96,60 @@ body {
   border-radius: 10px;
   width: 30%;
   height: 2px;
-  background-color: #088178;
+  background-color: #703f37;
   bottom: -4px;
   left: 20px;
 }
-
 #hero {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/hero4.png");
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b5.jpg");
   height: 90vh;
   width: 100%;
-  background-size: cover;
-  background-position: top 25% right 0;
-  padding: 0 80px;
+  background-position: top 15% right 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background-size: cover;
 }
 
 #hero h4 {
   padding-bottom: 50px;
+  padding-left: 194px;
 }
 
 #hero h1 {
   padding-bottom: 50px;
-  color: #088178;
+  color: #c8b7a6;
+  -webkit-text-stroke: #1a1a1a;
+  -webkit-text-stroke-width: 0.01px;
+  padding-left: 174px;
+}
+
+#hero h2 {
+  color: #703f37;
+  -webkit-text-stroke: #1a1a1a;
+  -webkit-text-stroke-width: 0.01px;
+  padding-left: 180px;
+
+}
+
+#hero p {
+  color: white;
+  padding-left: 167px;
 }
 
 #hero button {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/button.png");
   background-color: transparent;
   border: none;
-  color: #088178;
+  color: white;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
+  background-position-x: 145px;
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
+  padding-left: 210px;
 }
 
 #feature .fe-box {
@@ -140,7 +157,7 @@ body {
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-  border: 1px solid #cce7d0;
+  border: 1px solid #c8b7a6;
   border-radius: 4px;
   margin: 15px 0;
 }
@@ -154,7 +171,7 @@ body {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color: #703f37;
   background-color: #d1e8f2;
 }
 
@@ -194,12 +211,16 @@ body {
   text-align: center;
 }
 
+#fe-product h2 {
+  color: #703f37;
+}
+
 #fe-product .pro {
   position: relative;
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #cce7d0;
+  border: 1px solid #c8b7a6;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -241,7 +262,7 @@ body {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #088178;
+  color: #c8b7a6;
 }
 
 #fe-product .pro .cart {
@@ -249,23 +270,23 @@ body {
   height: 25px;
   line-height: 40px;
   border-radius: 50px;
-  background-color: #e8f6ea;
+  background-color: #c8b7a6;
   font-weight: 500;
-  color: #088178;
-  border: 1px solid #cce7d0;
+  color: #703f37;
+  border: 1px solid #c8b7a6;
   position: absolute;
   bottom: 20px;
   right: 10px;
 }
 
-#fe-product .pro .cart:hover{
-    background-color: #088178;
-    color: #e8f6ea;
+#fe-product .pro .cart:hover {
+  background-color: #703f37;
+  color: white;
 }
 
-.fe-product-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 20px;
+.fe-product-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
