@@ -101,10 +101,11 @@ body {
   left: 20px;
 }
 #hero {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b5.jpg");
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b8.jpg");
   height: 90vh;
   width: 100%;
   background-position: top 15% right 0;
+  padding: 0 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,42 +115,31 @@ body {
 
 #hero h4 {
   padding-bottom: 50px;
-  padding-left: 194px;
 }
 
 #hero h1 {
   padding-bottom: 50px;
-  color: #c8b7a6;
-  -webkit-text-stroke: #1a1a1a;
-  -webkit-text-stroke-width: 0.01px;
-  padding-left: 174px;
+  color: #7d94b5;
 }
 
 #hero h2 {
   color: #703f37;
-  -webkit-text-stroke: #1a1a1a;
-  -webkit-text-stroke-width: 0.01px;
-  padding-left: 180px;
-
 }
 
 #hero p {
-  color: white;
-  padding-left: 167px;
+  color: #1a1a1a;
 }
 
 #hero button {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/button.png");
   background-color: transparent;
   border: none;
-  color: white;
+  color: #c29591;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
-  background-position-x: 145px;
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
-  padding-left: 210px;
 }
 
 #feature .fe-box {
