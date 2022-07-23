@@ -127,7 +127,7 @@ body {
 }
 
 #hero p {
-  color: #1a1a1a;
+  color: white;
 }
 
 #hero button {
@@ -197,15 +197,15 @@ body {
   background-color: #fff2e5;
 }
 
-#fe-product {
+#product {
   text-align: center;
 }
 
-#fe-product h2 {
+#product h2 {
   color: #703f37;
 }
 
-#fe-product .pro {
+#product .pro {
   position: relative;
   width: 23%;
   min-width: 250px;
@@ -218,44 +218,44 @@ body {
   transition: 0.2s ease;
 }
 
-#fe-product .pro img {
+#product .pro img {
   width: 100%;
   border-radius: 20px;
 }
 
-#fe-product .pro:hover {
+#product .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#fe-product .pro .desc {
+#product .pro .desc {
   text-align: start;
   padding: 10px 0;
 }
 
-#fe-product .pro .desc span {
+#product .pro .desc span {
   color: #606063;
   font-size: 12px;
 }
 
-#fe-product .pro .desc h5 {
+#product .pro .desc h5 {
   padding-top: 7px;
   color: #1a1a1a;
   font-size: 14px;
 }
 
-#fe-product .pro .desc .star {
+#product .pro .desc .star {
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#fe-product .pro .desc h4 {
+#product .pro .desc h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
   color: #c8b7a6;
 }
 
-#fe-product .pro .cart {
+#product .pro .cart {
   width: 25px;
   height: 25px;
   line-height: 40px;
@@ -269,14 +269,127 @@ body {
   right: 10px;
 }
 
-#fe-product .pro .cart:hover {
+#product .pro .cart:hover {
   background-color: #703f37;
   color: white;
 }
 
-.fe-product-box {
+.product-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 20px;
 }
+
+#banner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b2.jpg");
+}
+
+#banner h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner h2 {
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: #ef3636;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+#banner button:hover {
+  background-color: #c8b7a6;
+  color: #fff;
+}
+
+#new-arr {
+  align-items: center;
+  text-align: center;
+}
+
+#call-banners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#call-banners .banner-b{
+  padding: 30px;
+    background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b17.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.3s;
+  }
+
+  #call-banners .banner-b:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  #call-banners .banner2{
+    background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b10.jpg");
+
+  }
+
+  #call-banners h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #call-banners h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  #call-banners p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+
+  #call-banners .button{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 11px 18px;
+    font-weight: 800;
+    transition: 0.3s;
+  }
+
+  #call-banners .button:hover{
+    background-color: #7d94b5;
+  }
