@@ -100,6 +100,7 @@ body {
   bottom: -4px;
   left: 20px;
 }
+
 #hero {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b8.jpg");
   height: 90vh;
@@ -338,58 +339,112 @@ button.normal {
   flex-wrap: wrap;
 }
 
-#call-banners .banner-b{
+#call-banners .banner-b {
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b17.jpg");
   padding: 30px;
-    background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b17.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-size: cover;
-    min-width: 580px;
-    height: 50vh;
-    background-position: center;
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    transition: 0.3s;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  min-width: 48%;
+  height: 50vh;
+  border-radius: 15px;
+  background-position: center;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
 
-  #call-banners .banner-b:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
-  }
+#call-banners .banner-b:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
 
-  #call-banners .banner2{
-    background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b10.jpg");
+#call-banners .banner2 {
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b10.jpg");
+}
 
-  }
+#call-banners h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
 
-  #call-banners h4{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-  }
+#call-banners h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
 
-  #call-banners h2{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 800;
-  }
+#call-banners p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
 
-  #call-banners p{
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    padding-bottom: 15px;
-  }
+#call-banners .button {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 11px 18px;
+  font-weight: 800;
+  transition: 0.3s;
+}
 
-  #call-banners .button{
-    border: 1px solid white;
-    color: white;
-    background-color: transparent;
-    padding: 11px 18px;
-    font-weight: 800;
-    transition: 0.3s;
-  }
+#call-banners .button:hover {
+  background-color: #7d94b5;
+}
 
-  #call-banners .button:hover{
-    background-color: #7d94b5;
-  }
+#text-banners {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#text-banners .text-ba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b7.jpg");
+  padding: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-size: cover;
+  min-width: 30%;
+  height: 30vh;
+  border-radius: 15px;
+  background-position: center;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: 0.3s;
+}
+
+#text-banners .text-ba:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+#text-banners h2 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+}
+
+#text-banners h4 {
+  color: #ef3636;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#text-banners .ba2 {
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#text-banners .ba3 {
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b18.jpg");
+  background-size: cover;
+  background-position: center;
+}
