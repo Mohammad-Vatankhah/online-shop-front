@@ -344,7 +344,7 @@ button.normal {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   background-size: cover;
   min-width: 48%;
@@ -447,4 +447,23 @@ button.normal {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b18.jpg");
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width:1720px){
+  #call-banners .banner-b{
+    min-width: 750px;
+  }
+  #call-banners {
+    justify-content: center;
+  }
+}
+
+@media(max-width:1660px){
+  #text-banners .text-ba{
+    min-width: 45%;
+    margin: 20px;
+  }
+  #text-banners {
+    justify-content: space-between;
+  }
 }
