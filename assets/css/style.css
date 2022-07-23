@@ -105,7 +105,7 @@ body {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b8.jpg");
   height: 90vh;
   width: 100%;
-  background-position: top 15% right 0;
+  background-position: top 20% right 0;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -449,21 +449,41 @@ button.normal {
   background-position: center;
 }
 
-@media (max-width:1720px){
-  #call-banners .banner-b{
+@media (max-width: 1020px) {
+  #call-banners .banner-b {
     min-width: 750px;
   }
   #call-banners {
     justify-content: center;
   }
+
+  #call-banners .banner2 {
+    margin-left: 10px;
+  }
 }
 
-@media(max-width:1660px){
-  #text-banners .text-ba{
+@media (max-width: 1245px) {
+  #text-banners .text-ba {
     min-width: 45%;
     margin: 20px;
   }
   #text-banners {
     justify-content: space-between;
+  }
+
+  #text-banners .ba3 {
+    margin-left: 29%;
+  }
+}
+
+@media (max-width: 1072px) {
+  #text-banners {
+    justify-content: center;
+  }
+  #text-banners .ba3 {
+    margin-left: 20px;
+  }
+  #text-banners .text-ba {
+    width: 421.19px;
   }
 }
