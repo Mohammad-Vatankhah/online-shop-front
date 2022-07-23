@@ -1,2 +1,2 @@
-# Shopping-Site
- A responsive shopping site
+# online shop
+ A responsive online shop
