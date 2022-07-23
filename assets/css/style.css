@@ -364,10 +364,6 @@ button.normal {
   background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b10.jpg");
 }
 
-#call-banners .banner1 {
-  margin-left: 10px;
-}
-
 #call-banners h4 {
   color: #fff;
   font-size: 20px;
@@ -462,6 +458,9 @@ button.normal {
   }
 
   #call-banners .banner2 {
+    margin-left: 10px;
+  }
+  #call-banners .banner1 {
     margin-left: 10px;
   }
 }
