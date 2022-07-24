@@ -493,7 +493,16 @@ button.normal {
   border-bottom-right-radius: 10px;
   font-size: 14px;
   font-weight: 600;
+  background-color: #c29591;
+  color: #fff;
   cursor: pointer;
+}
+
+#footer{
+  background-image: url("F:/shopping site/Shopping-Site/assets/images/footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #footer img {
