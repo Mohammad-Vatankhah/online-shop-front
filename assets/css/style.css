@@ -454,7 +454,7 @@ button.normal {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b14.png");
   background-color: #7d94b5;
   background-repeat: no-repeat;
