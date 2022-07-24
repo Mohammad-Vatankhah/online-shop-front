@@ -102,7 +102,7 @@ body {
 }
 
 #hero {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b8.jpg");
+  background-image: url("../images/banner/b8.jpg");
   height: 90vh;
   width: 100%;
   background-position: top 20% right 0;
@@ -132,7 +132,7 @@ body {
 }
 
 #hero button {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/button.png");
+  background-image: url("../images/button.png");
   background-color: transparent;
   border: none;
   color: #c29591;
@@ -292,7 +292,7 @@ body {
   width: 100%;
   height: 40vh;
   background-position: center;
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b2.jpg");
+  background-image: url("../images/banner/b2.jpg");
 }
 
 #banner h4 {
@@ -340,7 +340,7 @@ button.normal {
 }
 
 #call-banners .banner-b {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b17.jpg");
+  background-image: url("../images/banner/b17.jpg");
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -361,7 +361,7 @@ button.normal {
 }
 
 #call-banners .banner2 {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b10.jpg");
+  background-image: url("../images/banner/b10.jpg");
 }
 
 #call-banners h4 {
@@ -408,7 +408,7 @@ button.normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b7.jpg");
+  background-image: url("../images/banner/b7.jpg");
   padding: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -438,13 +438,13 @@ button.normal {
 }
 
 #text-banners .ba2 {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b4.jpg");
+  background-image: url("../images/banner/b4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #text-banners .ba3 {
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b18.jpg");
+  background-image: url("../images/banner/b18.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -455,7 +455,7 @@ button.normal {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/banner/b14.png");
+  background-image: url("../images/banner/b14.png");
   background-color: #7d94b5;
   background-repeat: no-repeat;
   background-position: 20% 30%;
@@ -498,8 +498,8 @@ button.normal {
   cursor: pointer;
 }
 
-#footer{
-  background-image: url("F:/shopping site/Shopping-Site/assets/images/footer.png");
+#footer {
+  background-image: url("../images/footer.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -535,7 +535,7 @@ button.normal {
   height: 35px;
 }
 
-#footer .social .instagram-logo{
+#footer .social .instagram-logo {
   width: 40px;
   height: 40px;
   transform: translateY(-3px);
