@@ -526,9 +526,11 @@ button.normal {
 
 #footer {
   display: flex;
+  flex-wrap: wrap;
   background-image: url("../images/footer.png");
   background-repeat: no-repeat;
   background-position: center;
+  justify-content: space-between;
   background-size: cover;
 }
 
@@ -573,7 +575,6 @@ button.normal {
 #footer .footer-s {
   display: flex;
   flex-direction: column;
-  margin-left: 80px;
 }
 
 #footer a {
@@ -583,7 +584,6 @@ button.normal {
 }
 
 #footer .install-app {
-  margin-left: 80px;
 }
 
 #footer .install-app .pay {
@@ -735,6 +735,20 @@ button.normal {
     width: 300px;
     right: 0;
     transition: 0.7s;
-    border-radius: 20px;
+  }
+
+  #hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #banner{
+    height: 20vh;
+  }
+
+  #call-banners .banner-b{
+    min-width: 100%;
+    height: 30vh;
   }
 }
