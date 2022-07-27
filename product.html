@@ -31,6 +31,7 @@
         </div>
       </section>
       <section id="product-details" class="section-p1">
+        <h6>Home/T-Shirt</h6>
         <div class="pro-img">
           <img
             src="assets/images/products/f1.jpg"
@@ -74,7 +75,6 @@
           </div>
         </div>
         <div class="single-pro-det">
-            <h6>Home/T-Shirt</h6>
             <h4>Men's Fashion T-Shirt</h4>
             <h2>$88</h2>
             <select>
@@ -278,7 +278,27 @@
         </div>
       </section>
     </div>
+<script>
+    var main_img = document.getElementById("main-img");
+var small_img = document.getElementsByClassName("small-img");
 
+small_img[0].onclick = function () {
+  main_img.src = small_img[0].src;
+};
+
+small_img[1].onclick = function () {
+  main_img.src = small_img[1].src;
+};
+
+small_img[2].onclick = function () {
+  main_img.src = small_img[2].src;
+};
+
+small_img[3].onclick = function () {
+  main_img.src = small_img[3].src;
+};
+
+</script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

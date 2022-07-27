@@ -25,24 +25,26 @@ toggle.onclick = function () {
   navbar.classList.toggle("active");
   toggle.classList.toggle("active");
 };
+document.getElementById("product").addEventListener("click", () => {
+  window.location.href = "product.html";
+});
 
 //product page gallery
 var main_img = document.getElementById("main-img");
 var small_img = document.getElementsByClassName("small-img");
-console.log(small_img);
 
-small_img[0].onclick = function(){
+small_img[0].onclick = function () {
   main_img.src = small_img[0].src;
-}
+};
 
-small_img[1].onclick = function(){
+small_img[1].onclick = function () {
   main_img.src = small_img[1].src;
-}
+};
 
-small_img[2].onclick = function(){
+small_img[2].onclick = function () {
   main_img.src = small_img[2].src;
-}
+};
 
-small_img[3].onclick = function(){
+small_img[3].onclick = function () {
   main_img.src = small_img[3].src;
-}
+};
