@@ -594,6 +594,54 @@ button.normal {
   border-radius: 10px;
 }
 
+/*shop page*/
+#shop-hero{
+  background-image: url("../images/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#shop-hero h2{
+  color: #fff;
+}
+
+#shop-hero p{
+  color: #7d94b5;
+}
+
+#page-num{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#page-num a:nth-child(2){
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#page-num a{
+  padding: 10px 15px;
+  background-color: #c8b7a6;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #703f37;
+}
+
+#page-num a:nth-child(3){
+  height: 38.4px;
+}
+
 @media (max-width: 1020px) {
   #call-banners .banner-b {
     min-width: 750px;
@@ -631,6 +679,8 @@ button.normal {
     margin-left: 29%;
   }
 }
+
+
 
 @media (max-width: 1072px) {
   #text-banners {
