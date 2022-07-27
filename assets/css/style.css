@@ -642,6 +642,90 @@ button.normal {
   height: 38.4px;
 }
 
+/*product page*/
+#product-details{
+  display: flex;
+  margin-top: 20px;
+}
+
+#product-details .single-pro-det{
+  width: 50%;
+  padding: 30px;
+}
+
+#product-details .single-pro-det h4{
+  font-size: 22px;
+  font-weight: 1000;
+  padding: 40px 0 20px 0;
+}
+
+#product-details .single-pro-det h2{
+  font-size: 26px;
+}
+
+#product-details .single-pro-det select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #7d94b5;
+  border-radius: 5px;
+}
+
+#product-details .single-pro-det select:focus{
+  outline: none;
+}
+
+#product-details .single-pro-det input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #7d94b5;
+  border-radius: 5px;
+}
+
+#product-details .single-pro-det input:focus{
+  outline: none;
+}
+
+#product-details .single-pro-det button{
+  height: 47px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #7d94b5;
+  color: #7d94b5;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+#product-details .single-pro-det button:hover{
+  background-color: #7d94b5;
+  color: #fff;
+}
+
+#product-details .single-pro-det span{
+  line-height: 25px;
+}
+
+#product-details .pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-gr{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+
+
 @media (max-width: 1020px) {
   #call-banners .banner-b {
     min-width: 750px;
