@@ -31,7 +31,6 @@
         </div>
       </section>
       <section id="product-details" class="section-p1">
-        <h6>Home/T-Shirt</h6>
         <div class="pro-img">
           <img
             src="assets/images/products/f1.jpg"
@@ -75,25 +74,26 @@
           </div>
         </div>
         <div class="single-pro-det">
-            <h4>Men's Fashion T-Shirt</h4>
-            <h2>$88</h2>
-            <select>
-              <option>Select Size</option>
-              <option>Small</option>
-              <option>Medium</option>
-              <option>Large</option>
-              <option>XL</option>
-              <option>XXL</option>
-            </select>
-            <input type="number" value="1" />
-            <button>Add To Cart</button>
-            <h4>Product Details</h4>
-            <span
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est
-              nisi officiis velit nam magni adipisci ipsa necessitatibus odio saepe,
-              debitis neque possimus libero quis harum eos veniam, exercitationem
-              porro?</span
-            >
+          <h6>Home/T-Shirt</h6>
+          <h4>Men's Fashion T-Shirt</h4>
+          <h2>$88</h2>
+          <select>
+            <option>Select Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+            <option>XXL</option>
+          </select>
+          <input type="number" value="1" />
+          <button>Add To Cart</button>
+          <h4>Product Details</h4>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            est nisi officiis velit nam magni adipisci ipsa necessitatibus odio
+            saepe, debitis neque possimus libero quis harum eos veniam,
+            exercitationem porro?</span
+          >
         </div>
       </section>
       <section id="product" class="section-p1">
@@ -278,27 +278,30 @@
         </div>
       </section>
     </div>
-<script>
-    var main_img = document.getElementById("main-img");
-var small_img = document.getElementsByClassName("small-img");
+    <script>
+      var main_img = document.getElementById("main-img");
+      var small_img = document.getElementsByClassName("small-img");
 
-small_img[0].onclick = function () {
-  main_img.src = small_img[0].src;
-};
+      small_img[0].onclick = function () {
+        main_img.src = small_img[0].src;
+      };
 
-small_img[1].onclick = function () {
-  main_img.src = small_img[1].src;
-};
+      small_img[1].onclick = function () {
+        main_img.src = small_img[1].src;
+      };
 
-small_img[2].onclick = function () {
-  main_img.src = small_img[2].src;
-};
+      small_img[2].onclick = function () {
+        main_img.src = small_img[2].src;
+      };
 
-small_img[3].onclick = function () {
-  main_img.src = small_img[3].src;
-};
+      small_img[3].onclick = function () {
+        main_img.src = small_img[3].src;
+      };
 
-</script>
+      document.getElementById("product").addEventListener("click", () => {
+        window.location.href = "product.html";
+      });
+    </script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

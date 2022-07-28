@@ -30,7 +30,7 @@
           <a href=""><ion-icon name="bag-outline"></ion-icon></a>
         </div>
       </section>
-      <section id="shop-hero">
+      <section id="shop-header">
         <h2>#stayhome</h2>
         <p>Save more with coupons & up tp 70% off!</p>
       </section>
@@ -439,9 +439,9 @@
         </div>
       </section>
       <section id="page-num">
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><ion-icon name="arrow-forward-outline"></ion-icon></a>
       </section>
       <section id="newsletter" class="section-p1 section-m1">
         <div>
@@ -520,6 +520,11 @@
       </section>
     </div>
 
+    <script>
+      document.getElementById("product").addEventListener("click", () => {
+        window.location.href = "product.html";
+      });
+    </script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
