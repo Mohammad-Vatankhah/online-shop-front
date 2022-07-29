@@ -810,6 +810,65 @@ button.normal {
   color: #cdebbc;
 }
 
+/*about page*/
+#about-header{
+  background-image: url("../images/about/banner.png");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#about-header h2{
+  color: #fff;
+}
+
+#about-header p{
+  color: #fff;
+}
+
+#about-box{
+  display: flex;
+  align-items: center;
+}
+
+#about-box .about-img {
+  width: 50%;
+}
+
+#about-box .about-img img{
+  width: 90%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  object-position: center;
+}
+
+#about-box .about-det{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#download{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#download video{
+  border-radius: 10px;
+  width: 70%;
+  height: 90%;
+  margin-top: 30px;
+}
+
+
 @media (max-width: 1020px) {
   #call-banners .banner-b {
     min-width: 750px;
@@ -868,6 +927,24 @@ button.normal {
   #footer a {
     margin-bottom: 15px;
   }
+}
+
+@media (max-width:850px) {
+  #about-box {
+    flex-direction: column;
+}
+#about-box .about-img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#about-box .about-img img{
+  width: 100%;
+}
+
+#about-box .about-det {
+  width: 100%;
+}
 }
 
 /*respponsive for iPad*/
@@ -985,6 +1062,10 @@ button.normal {
   #newsletter .sign-up {
     min-width: 100%;
   }
+
+  #download h2{
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1074,6 +1155,19 @@ button.normal {
 
   #blog .blog-box .blog-det {
     width: 100%;
+}
+
+.about-det h2{
+  font-size: 36px;
+}
+
+#download h2{
+  font-size: 30px;
+}
+
+#download video{
+  width: 100%;
+  height: 100%;
 }
 }
 
