@@ -868,6 +868,139 @@ button.normal {
   margin-top: 30px;
 }
 
+/*contact page*/
+#contact-header{
+  background-image: url("../images/about/banner.png");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#contact-header h2{
+  color: #fff;
+}
+
+#contact-header p{
+  color: #fff;
+}
+
+#contact-box{
+  display: flex;
+}
+
+#form
+#contact-box,  h2{
+  font-size: 34px;
+}
+
+#contact-box h4{
+  margin: 15px 0 15px 0;
+}
+
+#contact-box ion-icon{
+  margin-right: 15px;
+}
+
+#contact-box .contact-det{
+  width: 50%;
+}
+
+#form{
+  display: flex;
+  border: 1px solid #7d94b5;
+  margin: 20px;
+}
+
+
+#form .inputs{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#form .inputs {
+  width: 65%;
+}
+
+#form textarea,
+#form input {
+  width: 100%;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1px solid #7d94b5;
+}
+
+#form button{
+  width: 90px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #7d94b5;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#form button:hover{
+  background-color: #7d94b5;
+  color: #fff;
+}
+
+
+#form .manager-box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  margin-left: 90px;
+}
+
+#form .managers img{
+  margin-right: 20px;
+}
+
+#form .managers .manager-det{
+  display: flex;
+  flex-direction: column;
+}
+
+#form .managers p{
+  margin: 0;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+#form .managers h4{
+  margin-bottom: 10px;
+}
+
+
+@media (max-width:1165px) {
+  #contact-box {
+    flex-direction: column;
+    align-items: flex-start;
+}
+#contact-box .contact-det {
+  width: 100%;
+}
+
+#contact-box iframe{
+  width: 100%;
+}
+#form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7d94b5;
+  margin: 10px;
+  padding: 20px 40px;
+}
+}
 
 @media (max-width: 1020px) {
   #call-banners .banner-b {
@@ -944,6 +1077,15 @@ button.normal {
 
 #about-box .about-det {
   width: 100%;
+}
+
+#form {
+  flex-direction: column;
+  align-items: center;
+}
+
+#form .inputs{
+  margin-bottom: 30px;
 }
 }
 
@@ -1091,6 +1233,20 @@ button.normal {
   #hero {
     height: 80vh;
   }
+
+  #form {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  #form .manager-box {
+    margin-left: 0px;
+}
+
+#form .inputs {
+  width: 100%;
+}
 }
 
 @media (max-width: 525px) {
