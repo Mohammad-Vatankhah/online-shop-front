@@ -24,5 +24,4 @@ let toggle = document.querySelector(".toggle");
 toggle.onclick = function () {
   navbar.classList.toggle("active");
   toggle.classList.toggle("active");
-};
-
+}
