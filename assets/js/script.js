@@ -5,7 +5,7 @@ telegram = document.querySelector(".telegram-logo");
 function hover(element) {
   element.setAttribute(
     "src",
-    "F:/shopping site/Shopping-Site/assets/images/" +
+    "../assets/images/" +
       element.className +
       "-gif.gif"
   );
@@ -14,7 +14,7 @@ function hover(element) {
 function unhover(element) {
   element.setAttribute(
     "src",
-    "F:/shopping site/Shopping-Site/assets/images/" + element.className + ".png"
+    "../assets/images/" + element.className + ".png"
   );
 }
 
